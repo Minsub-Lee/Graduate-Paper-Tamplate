@@ -1,0 +1,46 @@
+\documentclass[a4paper, 11pt]{article}
+
+\usepackage{kotex}
+\usepackage[english]{babel}
+\usepackage{xspace}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=4.5cm,bottom=4.5cm,left=3.5cm,right=3.5cm,marginparwidth=1.75cm, margin=1in]{geometry}
+\linespread{1.6}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[colorlinks=True, allcolors=black]{hyperref}
+\usepackage{geometry} % package for page layouts
+\usepackage{blindtext}
+\usepackage{titlesec}
+\usepackage[dvipsnames]{xcolor}
+\setlength\parindent{10pt} % 들여쓰기 1글자
+
+\begin{document}
+
+\include{title1}
+
+\include{title2}
+
+\include{title3}
+
+\tableofcontents
+
+\include{Maintitle}
+
+\input{section1}
+
+\input{section2}
+
+\input{section3}
+
+
+% \bibliographystyle{alpha}
+% \bibliography{sample}
+
+
+
+\end{document}
